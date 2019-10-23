@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav-layout1">
+            <nav class = "nav">
+                <b class="text-lg nav-title" style="color:white">MySL</b>
+                <ul class = "nav-menu">
+                    <a href="home.html" class="active text-sm nav-button">Home</a>
+                    <a href="mypackage.html" class="text-sm nav-button">My Package</a>
+                    <a href="promo.html" class="text-sm nav-button">Promo</a>
+                    <a href="feedback.html" class="text-sm nav-button">Feedback</a>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-layout2">
+            <nav class = "nav-title">
+                <b class="text-lg color-primary">MySL</b>
+            </nav>
+            <nav class="nav">
+                <ul class = "nav-menu">
+                    <a href="home.html" class="active text-sm nav-button">Home</a>
+                    <a href="mypackage.html" class="text-sm nav-button">My Package</a>
+                    <a href="promo.html" class="text-sm nav-button">Promo</a>
+                    <a href="feedback.html" class="text-sm nav-button">Feedback</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bg">
+            <div class="layer2">
+                <div class="profile-container">
+                    <img src="assets/profile-img.jpg" class="profile-img">
+                    <div class="welcome-block">
+                        <p class="text-lg">Welcome back, <b>Chandra!</b></p>
+                        <a class="text-sm" href="login.html">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="info-container">
+            <div class="info-block">
+                <p class="text-med"> SL Number</p>
+                <b class="text-lg color-primary" id="notelp"></b>
+                <br>
+                <p class="text-med"> SL Balance</p >
+                <b class="text-lg color-accent"> Rp 100.000</b>
+            </div>
+            <div class="package-block">
+                <p class="text-lg text-align"><b class="color-accent">SL Package</b> for you</p>
+                <div class="package-block-row">
+                    <div class="package-layout ">
+                        <b class="text-med">Paket Combo</b>
+                        <div style="height: 20px"></div>
+                        <p class="text-sm">Internet (3G/4G)</p>
+                        <b class="text-med">32 GB</b>
+                        <p class="text-sm">Streaming</p>
+                        <b class="text-med">10 GB</b>
+                        <div style="height: 20px"></div>
+                        <b class="text-med text-price">Rp 100.000</b>
+                    </div>
+                    <div class="package-layout">
+                        <b class="text-med">Paket Family</b>
+                        <div style="height: 20px"></div>
+                        <p class="text-sm">Internet (3G/4G)</p>
+                        <b class="text-med">100 GB</b>
+                        <p class="text-sm">Streaming</p>
+                        <b class="text-med">50 GB</b>
+                        <div style="height: 20px"></div>
+                        <b class="text-med text-price">Rp 500.000</b>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        document.getElementById("notelp").innerHTML = localStorage.notelp;
+    </script>
+</body>
+</html>
