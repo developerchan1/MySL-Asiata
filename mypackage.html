@@ -34,18 +34,43 @@
         </div>
     </header>
     <main>
-        <p class="text-lg"><b class="color-primary">My</b> Package</p>
-        <div style="height: 20px"></div>
-        <p class="text-sm">Internet Quota (3G/4G)</p>
-        <b class="text-lg">40 GB</b>
-        <p class="text-sm">Streaming Quota</p>
-        <b class="text-lg">8 GB</b>
-        <br>
-        <input type="range" name="internet" min="1" max="10" value="8" disabled>
-        <div style="height: 10px"></div>
-
-        <br>
-        <progress max="100" value="80"></progress>
+        <div class="package-block">
+            <b class="text-lg color-primary">My Quota Left</b>
+            <div style="height: 20px"></div>
+            <p class="text-sm">Internet Quota (3G/4G)</p>
+            <b class="text-lg">40 GB</b>
+            <p class="text-sm">Streaming Quota</p>
+            <b class="text-lg">8 GB</b>
+            <br>
+            <div style="height: 20px"></div>
+            <p class="text-lg"><b class="color-accent">My Active</b> Package</p>
+            <div class="package-block-row">
+                <div class="package-layout ">
+                    <b class="text-med">Combo Package</b>
+                    <div style="height: 20px"></div>
+                    <p class="text-sm">Internet (3G/4G)</p>
+                    <b class="text-med">28 GB <b class="text-sm">of</b> 32 GB</b>
+                    <input type="range" min="0" max="32" value="28" disabled>
+                    <p class="text-sm">Streaming</p>
+                    <b class="text-med">6 GB <b class="text-sm">of</b> 10Gb</b>
+                    <input type="range" min="0" max="10" value="6" disabled>
+                    <div style="height: 20px"></div>
+                    <p class="text-sm text-price">Active until 30/10/2019</p>
+                </div>
+                <div class="package-layout ">
+                    <b class="text-med">Family Package</b>
+                    <div style="height: 20px"></div>
+                    <p class="text-sm">Internet (3G/4G)</p>
+                    <b class="text-med">12 GB <b class="text-sm">of</b> 100 GB</b>
+                    <input type="range" min="0" max="100" value="28" disabled>
+                    <p class="text-sm">Streaming</p>
+                    <b class="text-med">2 GB <b class="text-sm">of</b> 50Gb</b>
+                    <input type="range" min="0" max="50" value="2" disabled>
+                    <div style="height: 20px"></div>
+                    <p class="text-sm text-price">Active until 25/11/2019</p>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
