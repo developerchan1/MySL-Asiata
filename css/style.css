@@ -286,6 +286,7 @@ p{
 .form-feedback textarea{
     width: 100%;
     height: 120px;
+    resize: none;
 }
 
 @media only screen and (max-width: 420px) {
