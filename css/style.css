@@ -42,7 +42,6 @@ button:hover{
 }
 
 .bg{
-    background-image: url('/MySL/assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -110,7 +109,7 @@ p{
 
 
 .login-block{
-    width: 400px;
+    width: 450px;
     height: 300px;
     padding: 50px;
     margin:20px;
